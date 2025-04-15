@@ -1,8 +1,9 @@
 const { Client } = require('pg');
 
 const client = new Client({
-  connectionString: process.env.DATABASE_URL || 'postgres://localhost/acme_hr_directory',
-});
+connectionString: 'postgres://postgres:Cks101990!@localhost/acme_hr_directory',
+});  
+ 
 
 const init = async () => {
   try {
