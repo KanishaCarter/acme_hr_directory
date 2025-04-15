@@ -1,0 +1,29 @@
+{
+  "name": "acme_hr_directory",
+  "version": "1.0.0",
+  "description": "Block 33 Workshop\r Overview\r In this workshop, you'll build an API that the Acme Human Resources (HR) Department can use to manage its employees and departments. A department can have many employees, and an employee must belong to a department.\r Directions\r The goal of this workshop is to successfully create the routes in the following table:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanishaCarter/acme_hr_directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanishaCarter/acme_hr_directory/issues"
+  },
+  "homepage": "https://github.com/KanishaCarter/acme_hr_directory#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
